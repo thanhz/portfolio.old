@@ -31,13 +31,11 @@ a:visited {
 
 .header {
     background-color: #3498db;
-    background-size: cover;
-    background-position: center;
     height: 100vh;
 }
 
 .header h1 {
-    font-size: 100px;
+    font-size: 90px;
 }
 
 .menu {
@@ -53,25 +51,19 @@ a:visited {
 }
 
 .intro {
-    position: absolute;
-    top: 30vh;
-    left:15vw;
-/*     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+    width: 100%;
+    padding: 25%;
 }
 
 .scroll-down {
     position: absolute;
     bottom: 1%;
     left:50%;
-    width: 50%;
 }
 
 /*******SKILLS SECTION *********/
 .skills {
     background: linear-gradient( #3498db 25%, #fff 0%);
-    /* height: 100vh; */
     padding-top: 50px;
     text-align: center;
     margin-bottom: 100px;

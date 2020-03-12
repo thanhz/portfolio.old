@@ -140,7 +140,7 @@ p, ul{
     grid-gap: 30px;  
     padding: 0 30px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-template-rows: repeat(6, 400px);  
+    grid-auto-rows: 400px;
 }
 
 

@@ -2,6 +2,7 @@
 
 :root {
     --main-color: #3498db;
+    --text-color: #2c3e50;
   }
 
 /*GENERAL  */
@@ -26,10 +27,27 @@ h1 {
     letter-spacing: 1px;
 }
 
+h2,
+p {
+    color:var(--text-color);
+}
+
 a:link,
 a:visited {
     color: #fff;
     text-decoration: none;
+}
+/***********NAVIGATION MENU *********/
+.menu {
+    float: right;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.menu__list li {
+    display: inline;
+    list-style: none;
+    margin-right: 5px;
 }
 
 /***********HEADER SECTION *********/
@@ -41,18 +59,6 @@ a:visited {
 
 .header h1 {
     font-size: 90px;
-}
-
-.menu {
-    float: right;
-    text-decoration: none;
-    margin: 5px;
-}
-
-.menu__list li {
-    display: inline;
-    list-style: none;
-    margin-right: 5px;
 }
 
 .intro {
@@ -111,6 +117,7 @@ ul {
 }
 
 /*****PORTFOLIO SECTION ********/
+
 .portfolio h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -166,12 +173,19 @@ ul {
     opacity: 1;
 }
 
+#see__more {
+    color: var(--main-color);
+}
+
+#see__more:hover {
+    color: #2980b9;
+}
+
 /*****CONTACT ME SECTION ********/
 .contact {
-    background-color: #3498db;
+    background-color: var(--main-color);
     margin-top: 50px;
     padding-top: 50px;
-    height: 500px;
 }
 
 .contact h1 {
